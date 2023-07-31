@@ -1,5 +1,5 @@
 {
-"cmd":[
+"cmds":[
 	"curl www.baidu.com",
 	"slowhttptest -H -c 2000 -g -o output -i 10 -r 300 -t GET -u http://106.75.104.184:7000 -x 24 -p 3"
 	]
