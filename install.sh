@@ -1,8 +1,6 @@
 #!/bin/bash
-
 sudo apt-get update
-sudo apt install slowhttptest python3-pip git -y
-pip install requests azure-cosmos
+sudo apt install slowhttptest python3-pip git python3-azure-cosmos python3-requests -y
 
 git clone https://github.com/zenmiao7/AttackNotice/
 cd AttackNotice/
