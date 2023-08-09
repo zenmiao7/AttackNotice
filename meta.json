@@ -1,5 +1,5 @@
 {
 "cmds":[
-	"slowhttptest -H -c 8000 -g -o output -i 10 -r 300 -t GET -u https://outlook.office365.com/owa -l 600 -x 24 -p 3"
+	"slowhttptest -H -c 4000 -g -o output -i 10 -r 300 -t GET -u https://outlook.office365.com/owa -l 600 -x 24 -p 3"
 	]
 }
